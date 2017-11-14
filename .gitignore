@@ -1,0 +1,20 @@
+# Exclude
+
+## Pandas
+pandas/.ipynb_checkpoints/
+
+## Latex
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.synctex.gz
+*.xdv
+
+## Jekyll
+Gemfile
+Gemfile.lock
+_site/
+.sass-cache
+
+# Include

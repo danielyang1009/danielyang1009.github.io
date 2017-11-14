@@ -1,0 +1,22 @@
+# Author
+author: Daniel Yang
+email: danielyang1009@gmail.com
+github:  danielyang1009
+twitter: danielyang1009
+
+# Site
+title: Dyang
+description: The world is but a canvas to our imagination.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+highlight: rouge
+
+# Tracking
+# analytics:
+
+# Build
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+permalink: /:title/

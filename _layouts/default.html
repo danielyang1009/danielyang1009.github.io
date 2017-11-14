@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+<body>
+  <div class="site">
+    <div class="header">
+      <div class="site-branding">
+        <div class="site-title">
+          <ul>
+            <li>DANIEL</li>
+            <li>YANG's</li>
+            <li>BLOG</li>
+          </ul>
+        </div>
+        <p class="site-description">The world is but a canvas to our imagination.</p>
+      </div>
+      <nav class=nav-bar>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      {{ content }}
+    </div>
+    <div class="footer">
+      <p>&copy; 2017, Daniel Yang</p>
+    </div>
+  </div>
+</body>
+</html>

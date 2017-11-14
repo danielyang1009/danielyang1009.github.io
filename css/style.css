@@ -1,0 +1,252 @@
+/*============
+Daniel Yang
+Created: 11/09/2017
+Updated: 11/10/2017
+MK 2
+============*/
+
+/*============
+# Normalized
+============*/
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: #22262a;
+}
+
+a:visited {
+  color: #3E454C;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a,
+a:visited {
+  text-decoration: none
+}
+
+pre {
+  overflow: auto;
+}
+
+hr{
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+}
+
+/*============
+# Main Layout
+============*/
+/*
+## Default (mobile)
+*/
+.header,
+.main,
+.footer {
+	display: block;
+}
+
+.header {
+  background: #22262A;
+  color: white;
+  text-align: center;
+	height: 21em;
+}
+
+.header a {
+  color: white;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.site-branding {
+	align-items: center;
+	padding-top: 2em;
+}
+
+.site-title {
+	height: 6em;
+	width: 6em;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: white;
+}
+
+.site-description {
+	padding: 0 1em;
+}
+
+.nav-bar {
+}
+
+.nav-bar ul {
+	padding: 0 2em;
+}
+
+.nav-bar li {
+  display: inline-block;
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 0.4em;
+}
+
+.main {
+  max-width: 40em;
+	margin: 0 auto;
+	padding: 2em;
+}
+
+.footer {
+	text-align: right;
+	padding: 1em;
+	background-color: #22262A;
+	color: white;
+	text-align: center;
+}
+
+/*
+## Desktop 1000px
+*/
+@media screen and (min-width: 70em) {
+  .site {
+    display:grid;
+    grid-template-columns: 20em 1fr;
+    grid-template-rows: minmax(100vh,auto) auto;
+    grid-template-areas:
+    "header main"
+    "header footer";
+  }
+
+  .header {
+    grid-area: header;
+    position: fixed;
+    width: 20em;
+    height: 100vh;
+  }
+
+  .nav-bar {
+    /*padding: 0 2em;*/
+  }
+
+  .nav-bar li {
+		display: block;
+    padding: 0.8em;
+    text-align: left;
+		background-color: #22262A;
+  }
+
+  .main {
+    grid-area: main;
+		max-width: 45em;
+  }
+
+  .footer {
+    grid-area: footer;
+    margin: 0;
+		height: auto;
+    background-color: #22262A;
+    color: white;
+  }
+}
+
+/*============
+# Typography
+============*/
+.header {
+  font-family: "Roboto Mono", monospace;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 2em;
+	text-align: left;
+}
+
+.site-description {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 300;
+	text-align: center;
+}
+
+.nav-bar li {
+  font-size: 1.15em;
+}
+
+.main {
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  clear:both;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+.main h1 {
+  font-size: 3.2em;
+}
+
+.main h2 {
+  font-size: 2.6em;
+}
+
+.main h3 {
+  font-size: 2em;
+}
+
+.main h4 {
+  font-size: 1.6em;
+}
+
+.main p {
+  font-size: 1.2em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+
+.main li {
+	font-size: 1.2em;
+
+}
+
+.post-category {
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+}
+
+.post-info {
+  font-family: "Roboto Mono", monospace;
+}
+
+time {
+  font-weight: 700;
+}
+
+pre {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.1em;
+}

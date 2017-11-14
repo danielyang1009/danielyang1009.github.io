@@ -1,0 +1,15 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/manni.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,700|Source+Code+Pro|Rubik:300,300i,400" rel="stylesheet">
+
+    <!-- google analytics     -->
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+</head>
