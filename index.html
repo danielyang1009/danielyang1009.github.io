@@ -1,0 +1,17 @@
+---
+layout: default
+title: Home
+---
+
+<div class="homepage">
+  <ul>
+    {% for post in site.posts %}
+      <li><time class="homepage">{{ post.date | date: "%m/%d/%Y" }}</time>
+        <div class="homepage-post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+        <div class="homepage-post-description">{{ post.description }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -11,6 +11,7 @@ tags: hugo
 
 Hugo has a nice support for pagination as well as pager. To check if previous and next pages exists. We can use `.Paginator.HasPrev` and `.Paginator.HasNext`. And use `.Paginator.Prev.URL` and `.Paginator.Next.URL` to go between previous and next pagination page.
 
+{% raw %}
 ```html
 <div class="container">
   <ul class="pager align-center">
@@ -29,13 +30,14 @@ Hugo has a nice support for pagination as well as pager. To check if previous an
     {{ end }}
   </ul>
 </div>
-
 ```
+{% endraw %}
 
 ## Pager
 
 To check if previous or next blog post exists, use `.Prev` and `.Next`. To go between blog posts use `.Prev.Permalink` and `.Next.Permalink`.
 
+{% raw %}
 ```html
 <div class="container">
   <hr>
@@ -49,3 +51,4 @@ To check if previous or next blog post exists, use `.Prev` and `.Next`. To go be
   </ul>
 </div>
 ```
+{% endraw %}

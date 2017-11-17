@@ -112,6 +112,14 @@ hr{
 	padding: 2em;
 }
 
+.homepage-post-description {
+	padding: 0 0.5em;
+}
+
+.homepage li {
+	padding-bottom: 1em;
+}
+
 .footer {
 	text-align: right;
 	padding: 1em;
@@ -153,7 +161,8 @@ hr{
 
   .main {
     grid-area: main;
-		max-width: 45em;
+		/*max-width: 45em;*/
+		width: 45em;
   }
 
   .footer {
@@ -207,6 +216,7 @@ h6 {
 
 .main h1 {
   font-size: 3.2em;
+	text-transform: uppercase;
 }
 
 .main h2 {
@@ -227,10 +237,23 @@ h6 {
   margin-bottom: 1em;
 }
 
-
 .main li {
 	font-size: 1.2em;
+}
 
+.homepage li{
+	list-style: none;
+}
+
+.homepage-post-title {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.homepage-post-description {
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .post-category {
@@ -244,6 +267,10 @@ h6 {
 
 time {
   font-weight: 700;
+}
+
+time.homepage {
+	font-size: 0.85em;
 }
 
 pre {

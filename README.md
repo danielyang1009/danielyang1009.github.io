@@ -3,11 +3,15 @@
 ## v3.0 - Jekyll - Nov, 2017 (DONE)
 
 - [x] switch back to jekyll
-- [ ] fix index page post description
-- [ ] improve index page
-- [ ] archive page
+- [x] fix index page post description
+- [x] improve index page
+- [x] fix inline code block font and color
+- [x] add comments section with disqus
+- [ ] categories page, and fill categories folder
 - [ ] paginator
-- [ ] fix inline code block font and color
+- [ ] About page
+- [ ] Contact nav-bar collapse
+- [ ] double check post transition from hugo to jekyll, format
 
 ## v2.0 - Hugo - Apr, 2017 (DONE)
 
