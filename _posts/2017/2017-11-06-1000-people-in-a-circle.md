@@ -11,9 +11,7 @@ tags: brain-teaser
 
 Here is a brainteaser that bothers me a while. Didn't solve it at first time but using Excel. Now I see this brainteaser again. I will trying to solve it just using simple mathematics.
 
-```
-1000 people are standing in a circle, all numbered from 1 to 1000. Person 1 has a gun which he kills person 2 and give person 3 the gun. It goes on and on. Person 3 kills person 4 and passes the gun to person 5. This continues until there is only one person alive. Who is the last standing man?
-```
+"1000 people are standing in a circle, all numbered from 1 to 1000. Person 1 has a gun which he kills person 2 and give person 3 the gun. It goes on and on. Person 3 kills person 4 and passes the gun to person 5. This continues until there is only one person alive. Who is the last standing man?"
 
 ## Simple Math
 
