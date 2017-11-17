@@ -7,6 +7,7 @@
 - [x] improve index page
 - [x] fix inline code block font and color
 - [x] add comments section with disqus
+- [ ] fix header for mobile device
 - [ ] categories page, and fill categories folder
 - [ ] paginator
 - [ ] About page

@@ -64,7 +64,7 @@ hr{
   background: #22262A;
   color: white;
   text-align: center;
-	height: 21em;
+	height: 22.5em;
 }
 
 .header a {
@@ -114,6 +114,10 @@ hr{
 
 .homepage-post-description {
 	padding: 0 0.5em;
+}
+
+.homepage ul {
+	padding: 0;
 }
 
 .homepage li {
