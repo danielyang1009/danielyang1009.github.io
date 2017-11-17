@@ -7,11 +7,10 @@
 - [x] improve index page
 - [x] fix inline code block font and color
 - [x] add comments section with disqus
-- [ ] fix header for mobile device
-- [ ] categories page, and fill categories folder
-- [ ] paginator
-- [ ] About page
+- [ ] fix header and nav-bar for mobile device
 - [ ] Contact nav-bar collapse
+- [ ] categories page, and fill categories folder
+- [ ] About page
 - [ ] double check post transition from hugo to jekyll, format
 
 ## v2.0 - Hugo - Apr, 2017 (DONE)
