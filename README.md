@@ -1,4 +1,9 @@
-# Project Dyang
+# Dyang
+
+## v4.0 - Jekyll - Future
+- [ ] fix header and nav-bar for mobile device
+- [ ] nav-bar collapse
+- [ ] add related page
 
 ## v3.0 - Jekyll - Nov, 2017 (DONE)
 
@@ -9,10 +14,7 @@
 - [x] fixing inline code block
 - [x] categories page, and fill categories folder
 - [x] double check post transition from hugo to jekyll, format
-- [ ] fix header and nav-bar for mobile device
-- [ ] nav-bar collapse
-- [ ] about page
-- [ ] add related page
+- [x] about page
 
 ## v2.0 - Hugo - Apr, 2017 (DONE)
 
