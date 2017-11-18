@@ -6,10 +6,11 @@
 - [x] fix index page post description
 - [x] improve index page
 - [x] fix inline code block font and color
-- [x] add comments section with disqus
+- [x] fixing inline code block
+- [x] categories page, and fill categories folder
+- [ ] add related page
 - [ ] fix header and nav-bar for mobile device
 - [ ] Contact nav-bar collapse
-- [ ] categories page, and fill categories folder
 - [ ] About page
 - [ ] double check post transition from hugo to jekyll, format
 

@@ -15,9 +15,9 @@ Here is a brainteaser that bothers me a while. Didn't solve it at first time but
 
 ## Simple Math
 
-First, observe a simple case, if only one person (n=1) then the survivor will be himself.
+First, observe a simple case, if only one person when n=1 then the survivor will be himself.
 
-Second, if there are two person (n=2), the survivor will be person 1 as well.
+Second, if there are two person when n=2, the survivor will be person 1 as well.
 
 For n=4 case, the survivor is still person 1. And so on. If the total number of person is `2^n` then survivor will be person 1.
 

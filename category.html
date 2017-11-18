@@ -1,0 +1,23 @@
+---
+layout: default
+title: Category
+permalink: category/
+---
+
+<h1>Category</h1>
+<div class="homepage">
+  <ul>
+  {% for category in site.categories %}
+    <li>
+      <div class="homepage-post-title">
+        {{ category[0] | capitalize }}:
+      </div>
+      <div class="homepage-post-description">
+        <a href="/category/{{ category[0] }}">
+          {{ category[1] | size  }} posts
+        </a>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

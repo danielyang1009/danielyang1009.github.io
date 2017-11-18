@@ -112,10 +112,6 @@ hr{
 	padding: 2em;
 }
 
-.homepage-post-description {
-	padding: 0 0.5em;
-}
-
 .homepage ul {
 	padding: 0;
 }
@@ -235,6 +231,14 @@ h6 {
   font-size: 1.6em;
 }
 
+.main h5 {
+	font-size: 1.4em;
+}
+
+.main h6 {
+	font-size: 1.2em;
+}
+
 .main p {
   font-size: 1.2em;
   margin-top: .5em;
@@ -252,12 +256,14 @@ h6 {
 .homepage-post-title {
 	font-size: 1.2em;
 	font-weight: 700;
+	padding-left: 0.5em;
 }
 
 .homepage-post-description {
   font-style: italic;
   font-size: 1em;
   font-weight: 300;
+	padding-left: 1em;
 }
 
 .post-category {
@@ -277,7 +283,12 @@ time.homepage {
 	font-size: 0.85em;
 }
 
-pre {
+code {
+	background: #f0f3f3;
   font-family: "Source Code Pro", monospace;
-  font-size: 1.1em;
+  font-size: 0.9em;
+}
+
+.highlight {
+	font-size: 1.05em;
 }

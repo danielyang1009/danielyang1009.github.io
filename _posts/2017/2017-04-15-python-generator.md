@@ -47,7 +47,7 @@ Generator Expression: similar to list comprehension. The difference is that gene
 
 Here is example using generator to return square of natural numbers.
 
-- Using generator
+When using generator:
 
 ```python
 def gensquares(N):
@@ -58,7 +58,7 @@ for item in gensquares(5):
     print(item)
 ```
 
-- Using function
+When using function:
 
 ```python
 def gensquares(N):
@@ -130,7 +130,8 @@ For first case, my computer stuck immediately. However for second case, we use g
 
 In this example, we want to know the position of words in text.
 
-- When not using generator
+When not using generator
+
 ```python
 def index_words(text):
     result = []
@@ -142,7 +143,8 @@ def index_words(text):
     return result
 ```
 
-- When using generator
+When using generator:
+
 ```python
 def index_words(text):
     if text:
