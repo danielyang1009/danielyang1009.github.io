@@ -64,7 +64,9 @@ hr{
   background: #22262A;
   color: white;
   text-align: center;
-	height: 22.5em;
+	/*height: 22.5em;*/
+	height: auto;
+	padding: 2em 0;
 }
 
 .header a {
@@ -73,12 +75,12 @@ hr{
 
 .header ul {
   list-style-type: none;
+	margin: 0;
   padding: 0;
 }
 
 .site-branding {
 	align-items: center;
-	padding-top: 2em;
 }
 
 .site-title {
@@ -87,6 +89,11 @@ hr{
 	margin: 0 auto;
 	border-style: solid;
 	border-color: white;
+}
+
+.site-title li {
+	padding-top: 1.6em;
+	padding-left: 0.5em;
 }
 
 .site-description {
