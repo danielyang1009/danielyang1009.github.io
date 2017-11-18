@@ -52,6 +52,7 @@ two one
 |         13 | {:<10d} |        13 | Left aligned (width 10)                       |
 |         13 | {:^10d} |        13 | Center aligned (width 10)                     |
 ```
+
 ## Convert values to different bases
 
 ```python

@@ -9,16 +9,16 @@ tags: hugo
 
 ## Switch from jekyll
 
-When I first want to build a blog and counter jekyll, I'm really happy about the result for only working for days. It's easy, fast and GitHub Pages supported. I found this great tutorial on YouTube by [Thomas Bradley](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-). It really makes everything clear and simple to build basic framework of the website. With a little help from `Bootstrap`, I, even never build a website myself, finished first version of my blog within a week. Then I found `Hugo`, same static website generator by `golang`. It's really fast compare to `jekyll`, [Hugo benchmark](https://www.youtube.com/watch?v=CdiDYZ51a2o). It completed 5,000 posts in 6 or 7 second. It could be a main advantage of hugo inherit by `golang`.
+When I first want to build a blog and counter jekyll, I'm really happy about the result for only working for days. It's easy, fast and GitHub Pages supported. I found this great tutorial on YouTube by [Thomas Bradley](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-). It really makes everything clear and simple to build basic framework of the website. With a little help from `Bootstrap`, I, even never build a website myself, finished first version of my blog within a week. Then I found `Hugo`, same static website generator by `golang`. It's really fast compare to `jekyll`, [Hugo benchmark](https://www.youtube.com/watch?v=CdiDYZ51a2o). It completed 5,000 posts in 7 second. It could be a main advantage of hugo inherit by `golang`.
 
-### Pros
+###### Pros
 
 - Super fast
 - More flexible syntax than liquid template
 - Since uploading content not source code, no wait until GitHub Pages render your pages
 - Theme feature, easily switch and package theme
 
-### Cons
+###### Cons
 
 - Not GitHub Page supported
 - No default theme to show content

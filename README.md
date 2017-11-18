@@ -8,11 +8,11 @@
 - [x] fix inline code block font and color
 - [x] fixing inline code block
 - [x] categories page, and fill categories folder
-- [ ] add related page
+- [x] double check post transition from hugo to jekyll, format
 - [ ] fix header and nav-bar for mobile device
-- [ ] Contact nav-bar collapse
-- [ ] About page
-- [ ] double check post transition from hugo to jekyll, format
+- [ ] nav-bar collapse
+- [ ] about page
+- [ ] add related page
 
 ## v2.0 - Hugo - Apr, 2017 (DONE)
 

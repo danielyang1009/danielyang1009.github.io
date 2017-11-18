@@ -7,7 +7,7 @@ tags: algorithm python
 categories: algorithm
 ---
 
-## Intro
+## Problem
 
 This classic problem `Tower of Hanoi` help us better understand way to recursive solve a problem. By first divide it into small same problem, then conquer it little by little. Often call `divide and conquer` principle of providing a recursive solution.
 

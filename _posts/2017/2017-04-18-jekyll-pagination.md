@@ -85,7 +85,3 @@ One thing to notice is that `jekyll-paginate` is that pagination  page number st
 {% endif %}
 {% endraw %}
 ```
-
-## Improvement
-
-Right now, to show which page we are currently on, I just use `<strong>` in page number. In the future, I want the current cell to be darken, to be more clear which page we are on.

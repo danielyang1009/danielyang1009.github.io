@@ -211,7 +211,7 @@ h6 {
   margin: 0px;
   clear:both;
   font-weight: 700;
-  line-height: 1.4em;
+  line-height: 1.6em;
 }
 
 .main h1 {
@@ -243,6 +243,7 @@ h6 {
   font-size: 1.2em;
   margin-top: .5em;
   margin-bottom: 1em;
+	line-height: 1.6em;
 }
 
 .main li {
@@ -271,6 +272,11 @@ h6 {
   text-transform: uppercase;
 }
 
+.post a {
+	text-decoration: none;
+	border-bottom: 3px solid #22262A;
+}
+
 .post-info {
   font-family: "Roboto Mono", monospace;
 }
@@ -291,4 +297,10 @@ code {
 
 .highlight {
 	font-size: 1.05em;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px solid white;
 }
