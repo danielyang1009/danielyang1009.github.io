@@ -19,4 +19,4 @@ markdown: kramdown
 highlighter: rouge
 
 # Permalinks
-permalink: /:year/:title/
+permalink: /:title/
