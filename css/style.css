@@ -303,8 +303,10 @@ code {
   font-size: 0.9em;
 }
 
-.highlight {
+pre.highlight {
 	font-size: 1.05em;
+	border-left: 2px solid #0099FF;
+	padding: 0.5em 1em;
 }
 
 .about a {
