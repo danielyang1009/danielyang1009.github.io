@@ -1,11 +1,14 @@
 # Dyang
 
-## v4.0 - Jekyll - Future
+## Future articles
+
+## Version
+### v4.0 - Jekyll - Future
 - [ ] fix header and nav-bar for mobile device
 - [ ] nav-bar collapse
 - [ ] add related page
 
-## v3.0 - Jekyll - Nov, 2017 (DONE)
+### v3.0 - Jekyll - Nov, 2017 (DONE)
 
 - [x] switch back to jekyll
 - [x] fix index page post description
@@ -16,7 +19,7 @@
 - [x] double check post transition from hugo to jekyll, format
 - [x] about page
 
-## v2.0 - Hugo - Apr, 2017 (DONE)
+### v2.0 - Hugo - Apr, 2017 (DONE)
 
 - [x] basic structure, Links
 - [x] archives page
@@ -30,7 +33,7 @@
 - [x] add tag page
 - [x] add separate categories page(`_default/list.html`), also counting article number
 
-## v1.0 - Jekyll - Apr, 2017 (DONE)
+### v1.0 - Jekyll - Apr, 2017 (DONE)
 
 - [x] basic structure
 - [x] test basic archive by tag
