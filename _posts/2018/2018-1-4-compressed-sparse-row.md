@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-01-02
+date: 2018-01-04
 title: Compressed Sprase Row
 description: What's compressed sprase row?
 categories: machine-learning
