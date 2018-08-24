@@ -15,12 +15,14 @@ When measuring performance of a model, it's to easy to think of indicators like 
 
 To better understand precision, recall and F1, the following table demostrate an example of real world situation, where TP/NP is true/false positve and TN/FN is true/false nagetive. For example, a positive example if we classify it correctly, then it's a true positive. However, if we classify wrongly, it is a nagetive positive.
 
-| Positive obs| Negative obs|
+It may seems confusion when mentioning true/positve, false/negative. In this case, we may predetermine a threshold or a cut point which split our predictions in two. Usually we define predictions that above threshold as "positve", below threhold as negative. True and false is easy to understand. True is when we predict correctly, false when predict wrongly.
+
+| Positive obs | Negative obs |
 |:---:|:---:|
-|TP|**FP**|
-|TP|TN|
+|*TP*|**FP**|
+|*TP*|TN|
 |...|...|
-|TP|TN|
+|*TP*|TN|
 |**FN**|TN|
 
 Just notice first row, if we predict a negative ob as postive, it becomes a false positve. And in last row, if we predict a postive ob as negative, it creates a false nagetive. Clearly we have `TP + FP + TN + FN = total samples`.
@@ -29,7 +31,7 @@ After we define TP, FP, TN and FN, we can define what `precision` and `recall` i
 
 **P(查准率) = TP / (TP + FP)**
 
-We can see that `precision` defines in all we predict as postive, what percentage is truely postive obs(predict correctly). 
+We can see that `precision` defines in all we predict as postive, what percentage is truely postive obs(predict correctly).
 
 **R(查全率) = TP / (TP + FN)**
 
@@ -62,3 +64,25 @@ This equation is also define by harmonic mean.
 **1/F_b = 1/(1 + b^2)[1/P + b^2/R]** *where b>0*
 
 Beta determines the weight of precision and recall. When beta>1, we value recall more. When beta<1, we value precision more.
+
+## ROC and AUC
+
+As we already defined TP, FP, TN and FN, we can continuely define two more which are described in `ROC(receiver operating characteristic)` curve. If we graph TPR in y-axis, and NPR in x-axis, we have ROC curve, a upward sloping curve. And the area under curve is called `AUC`.
+
+**TPR(True Positive Rate) = TP / (TP + FN)**
+
+TPR is the same as R(recall) =  TP / (TP + FN), which calculate in all positive observations, how many we predict/pick correctly.
+
+**FPR(False Positive Rate) = FP / (FP + TN)**
+
+In contrast, we have FPR which describe in all negative observations, how many we predict/pick wrongly, hence false.
+
+| Positive obs| Negative obs|
+|:---:|:---:|
+|**TP**|*FP*|
+|**TP**|*TN*|
+|...|...|
+|**TP**|*TN*|
+|**FN**|*TN*|
+
+When comparing ROC curve, is same as comparing P-R curve. The bigger AUC(area under curve), the better.
